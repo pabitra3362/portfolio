@@ -1,0 +1,1138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mbcontainer ,.maineducation,.mainexperience,.line,.draw{
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.second>.project {
+    color: white;
+    font-size: medium;
+    font-weight: normal;
+}
+
+.second {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.second>div {
+    font-size: larger;
+}
+
+.pic>img {
+    border-radius: 50%;
+}
+
+.second>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+#cvbtn {
+    width: 180px;
+    background-color: orangered;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-color: rgb(241, 89, 7);
+}
+
+.img2 {
+    height: 80vh;
+    background-image: url("https://img.freepik.com/free-photo/fading-blue-background_53876-88684.jpg?t=st=1712583946~exp=1712584546~hmac=118c70878d188d4a543a59fe8fe2eb4fc5f7d45273c7dee2b56e6c5786df9e7f");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img2>img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 16%;
+    left: 38%;
+    border: 10px solid orangered;
+}
+
+p.big {
+    font-size: 65px;
+    font-weight: bolder;
+    color: white;
+    width: 55%;
+    position: absolute;
+    top: 53%;
+    left: 25%;
+
+
+}
+
+p.small {
+    color: rgba(255, 255, 255, 0.813);
+    font-size: 25px;
+    width: 50%;
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    text-align: center;
+}
+
+#mywork {
+    border-radius: 30px;
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-size: large;
+    position: absolute;
+    top: 80%;
+    left: 28%;
+    background-color: orangered;
+}
+
+#hello {
+    border-radius: 30px;
+    width: 170px;
+    height: 50px;
+    color: rgb(18, 18, 18);
+    font-size: large;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+}
+
+#hello>i {
+    margin-right: 15px;
+}
+
+p.services {
+    width: fit-content;
+    margin-left: 45%;
+    margin-top: 100px;
+    color: orangered;
+    font-size: 20px;
+}
+
+p.txt {
+    width: fit-content;
+    margin: auto;
+    margin-top: -10px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.card1,
+.card2,
+.card3 {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 370px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgba(234, 230, 230, 0.653);
+    padding: 15px;
+}
+
+.logo {
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 93%, 45% 84%, 29% 70%, 13% 59%, 10% 22%, 20% 10%);
+    height: 150px;
+    width: 150px;
+    margin: 10% auto;
+    background-color: orange;
+}
+
+.logo>img {
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: multiply;
+}
+
+p.backend {
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+p.backend2 {
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+    padding: 25px;
+}
+
+.logo2 {
+    clip-path: polygon(50% 0%, 80% 10%, 89% 34%, 89% 64%, 75% 82%, 52% 87%, 9% 90%, 8% 66%, 7% 37%, 25% 18%);
+    height: 150px;
+    width: 150px;
+    margin: 10% auto;
+    background-color: rgba(253, 251, 251, 0.861);
+}
+
+.logo2>img {
+    height: 100px;
+    width: 100px;
+    margin: 15px 20%;
+    mix-blend-mode: multiply;
+}
+
+.card2 {
+    background-color: rgba(71, 71, 218, 0.911);
+}
+
+.text3 {
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+.text4 {
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+    padding: 25px;
+}
+
+.logo3 {
+    clip-path: polygon(84% 19%, 70% 15%, 23% 12%, 8% 12%, 3% 22%, 4% 50%, 10% 75%, 24% 89%, 35% 97%, 49% 97%, 75% 91%, 90% 75%, 90% 45%, 88% 32%);
+    height: 150px;
+    width: 150px;
+    margin: 10% auto;
+    background-color: orange;
+}
+
+.logo3>svg {
+    height: 80px;
+    width: 80px;
+    margin: 29px 20%;
+    mix-blend-mode: multiply;
+}
+
+.text5 {
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+.text6 {
+    width: fit-content;
+    text-align: center;
+    font-size: large;
+    padding: 25px;
+}
+
+.about-me {
+    height: 450px;
+    margin-top: 80px;
+    background-image: url("https://img.freepik.com/free-photo/metal-texture-with-dust-scratches-cracks-textured-backgrounds_1421-330.jpg?t=st=1712593071~exp=1712593671~hmac=2ebb8bab1a0fe36e1fb4fc4353f735a2eefa170fc936f0c3ed424771176531ca");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 10px solid rgb(117, 124, 234);
+    overflow: hidden;
+    background-color: rgb(247, 125, 81);
+
+}
+
+.img>img {
+    height: 350px;
+    width: 300px;
+
+}
+
+.photo {
+    position: relative;
+    padding-top: 50px;
+    left: 120px;
+}
+
+.icons1 {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(247, 107, 26);
+    rotate: 120deg;
+    position: absolute;
+    top: 70px;
+    left: -30px;
+}
+
+.icons2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(117, 124, 234);
+    position: absolute;
+    top: 60px;
+    left: 350px;
+}
+
+.icons3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(247, 107, 26);
+    position: absolute;
+    top: 330px;
+    left: -30px;
+}
+
+.icons4 {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(117, 124, 234);
+    rotate: 330deg;
+    position: absolute;
+    top: 340px;
+    left: 350px;
+}
+
+.abtme {
+    color: rgb(247, 107, 26);
+    width: fit-content;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.architect {
+    font-size: 45px;
+    font-weight: bolder;
+    width: fit-content;
+}
+
+.lorem {
+    width: 55%;
+    font-size: large;
+    font: 700;
+}
+
+.other {
+    position: relative;
+    left: 250px;
+}
+
+#github {
+    font-size: 55px;
+    color: blue;
+}
+
+#linkedin {
+    font-size: 55px;
+    color: blue;
+    margin-left: 45px;
+}
+
+#downloadcv {
+    margin-top: 20px;
+    width: 200px;
+    background-color: rgb(236, 133, 7);
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.showcase {
+    padding: 30px;
+}
+
+.project {
+    color: rgb(236, 133, 7);
+    font-weight: bolder;
+    font-size: larger;
+    width: fit-content;
+    margin: auto;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding: 10px 50px;
+}
+
+.project1,
+.project2,
+.project3 {
+    height: 330px;
+    width: 450px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+
+}
+
+.projimg1>img {
+    height: 250px;
+    width: 447px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.projimg2>img {
+    height: 250px;
+    width: 447px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.projimg3>img {
+    height: 250px;
+    width: 447px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.eduexp {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 40px;
+}
+
+.education>p {
+    color: rgb(236, 133, 7);
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.experience>p {
+    color: rgb(117, 124, 234);
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.educard1,
+.educard2,
+.educard3 {
+    background-color: rgba(247, 188, 202, 0.934);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.expcard1,
+.expcard2,
+.expcard3 {
+    background-color: rgb(173, 178, 244);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.skills>h4 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.skills>p {
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.skillcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 30px 120px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.skillcontainer>div {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.contact>h4 {
+    color: rgb(236, 133, 7);
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact>p {
+    width: fit-content;
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-top: 40px;
+}
+
+#txtid {
+    grid-column: 1 / span 2;
+}
+
+.form>input {
+    background-color: aliceblue;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(8, 8, 8);
+    font-size: large;
+}
+
+.form>textarea {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(8, 8, 8);
+    font-size: large;
+}
+
+.form>button {
+    grid-column: 1 / span 2;
+    background-color: rgb(236, 133, 7);
+    height: 50px;
+    color: white;
+}
+
+footer {
+    height: 90px;
+    background-color: rgb(242, 195, 137);
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.symbol>i {
+    color: black;
+    font-size: 50px;
+    margin-left: 20px;
+}
+.ptext{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 370px) {
+
+    .mbcontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 80px;
+        background-color: rgb(247, 243, 243);
+        color: rgb(15, 15, 15);
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hamburger i {
+        font-size: 40px;
+        width: 50px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .gridnav {
+        background-color: black;
+        color: white;
+        /* opacity: 0.5; */
+        height: 50%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+    }
+
+    .gridnav div a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .gridnav div {
+        text-align: center;
+        font-size: larger;
+    }
+
+    .gridnavcontainer {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .gridnav .project {
+        color: white;
+        font-size: large;
+        font-weight: normal;
+    }
+    .img2>img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        position: absolute;
+        top: 16%;
+        left: 15%;
+        border: 10px solid orangered;
+    }
+    p.big {
+        font-size: 35px;
+        font-weight: bolder;
+        color: white;
+        width: fit-content;
+        position: absolute;
+        top: 53%;
+        left: 0%;
+        text-align: center;
+    }
+    .img2 {
+        height: 1000px;
+        background-image: url("https://img.freepik.com/free-photo/fading-blue-background_53876-88684.jpg?t=st=1712583946~exp=1712584546~hmac=118c70878d188d4a543a59fe8fe2eb4fc5f7d45273c7dee2b56e6c5786df9e7f");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    p.small {
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.813);
+        font-size: 25px;
+        width: fit-content;
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        text-align: center;
+    }
+    #mywork {
+        border-radius: 30px;
+        width: 170px;
+        height: 50px;
+        color: white;
+        font-size: large;
+        position: absolute;
+        top: 98%;
+        left: 25%;
+        background-color: orangered;
+    }
+    
+    #hello {
+        border-radius: 30px;
+        width: 170px;
+        height: 50px;
+        color: rgb(18, 18, 18);
+        font-size: large;
+        position: absolute;
+        top: 108%;
+        left: 25%;
+    }
+    p.services {
+        width: fit-content;
+        margin-left: 37%;
+        margin-top: 100px;
+        color: orangered;
+        font-size: 20px;
+    }
+    p.txt {
+        width: fit-content;
+        margin: auto;
+        margin-top: -10px;
+        font-weight: bolder;
+        font-size: 35px;
+        text-align: center;
+    }
+    .cards {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+.card1,
+.card2,
+.card3 {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgba(234, 230, 230, 0.653);
+    padding: 15px;
+}
+.card2 {
+    background-color: rgba(71, 71, 218, 0.911);
+}
+.about-me {
+    height: 1250px;
+
+    margin-top: 80px;
+    background-image: url("https://img.freepik.com/free-photo/metal-texture-with-dust-scratches-cracks-textured-backgrounds_1421-330.jpg?t=st=1712593071~exp=1712593671~hmac=2ebb8bab1a0fe36e1fb4fc4353f735a2eefa170fc936f0c3ed424771176531ca");
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(117, 124, 234);
+    overflow: hidden;
+    background-color: rgb(247, 125, 81);
+
+}
+.img>img {
+    height: 250px;
+    width: 200px;
+    margin-left: 17px;
+
+}
+
+.photo {
+    position: relative;
+    padding-top: 50px;
+    left: 30px;
+}
+
+.icons1 {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(247, 107, 26);
+    rotate: 120deg;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+}
+
+.icons2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(117, 124, 234);
+    position: absolute;
+    top: 30px;
+    left: 230px;
+}
+
+.icons3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(247, 107, 26);
+    position: absolute;
+    top: 300px;
+    left: -30px;
+}
+
+.icons4 {
+    height: 0px;
+    width: 0px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid rgb(117, 124, 234);
+    rotate: 330deg;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+}
+
+.abtme {
+    color: rgb(247, 107, 26);
+    width: fit-content;
+    font-size: larger;
+    font-weight: bold;
+    margin: auto;
+}
+
+.architect {
+    font-size: 35px;
+    font-weight: bolder;
+    width: fit-content;
+    text-align: center;
+}
+
+.lorem {
+    width: fit-content;
+    font-size: large;
+    font: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.other {
+    position: relative;
+    left: 0px;
+    
+}
+
+#github {
+    font-size: 55px;
+    color: blue;
+    margin-left: 25%;
+}
+
+#linkedin {
+    font-size: 55px;
+    color: blue;
+    margin-left: 45px;
+}
+
+#downloadcv {
+    margin-top: 20px;
+    width: 200px;
+    background-color: rgb(236, 133, 7);
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 20%;
+
+}
+
+.showcase {
+    padding: 30px;
+}
+
+.project {
+    color: rgb(236, 133, 7);
+    font-weight: bolder;
+    font-size: larger;
+    width: fit-content;
+    margin: auto;
+}
+
+h1 {
+    width: fit-content;
+    font-size: 35px;
+    margin: auto;
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding: 10px 0%;
+}
+
+.project1,
+.project2,
+.project3 {
+    height: 330px;
+    width: 100%;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    margin: auto;
+
+}
+
+.projimg1>img {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.projimg2>img {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.projimg3>img {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* pending work from here */
+
+.eduexp{
+    display: none;
+}
+.mainexperience,.maineducation{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.education>p {
+    color: rgb(236, 133, 7);
+    font-size: 22px;
+    font-weight: bolder;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.experience>p {
+    color: rgb(117, 124, 234);
+    font-size: 22px;
+    font-weight: bolder;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.educard1,
+.educard2,
+.educard3 {
+    background-color: rgba(247, 188, 202, 0.934);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 32px;
+}
+
+.expcard1,
+.expcard2,
+.expcard3 {
+    background-color: rgb(173, 178, 244);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 32px;
+}
+
+.skills>h4 {
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.skills>p {
+    width: fit-content;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.skills{
+    position: relative;
+}
+.line{
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 557px;
+    background-color: black;
+    rotate:  90deg;
+    top: 383px;
+    left: -110px;
+    border-radius: 15px;
+}
+.draw{
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+}
+.hrline1{
+    top: 196px;
+}
+.hrline2{
+    top: 318px;
+}
+.hrline3{
+    top: 436px;
+}
+.hrline4{
+    top: 562px;
+}
+.hrline5{
+    top: 102px;
+}
+.hrline6{
+    top: 660px;
+}
+
+.skillcontainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 30px 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+
+.skillcontainer>div {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.contact>h4 {
+    color: rgb(236, 133, 7);
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.contact>p {
+    width: fit-content;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    justify-content: auto;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    margin-top: 40px;
+}
+
+#txtid ,#email{
+    grid-column: 1 / span 1;
+}
+
+.form>input {
+    background-color: aliceblue;
+    width: 85%;
+    height: 50px;
+    margin-left: 13%;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: rgb(8, 8, 8);
+    font-size: large;
+}
+
+.form>textarea {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 85%;
+    height: 190px;
+    margin-left: 13%;
+    border-color: rgb(8, 8, 8);
+    font-size: large;
+}
+
+.form>button {
+    grid-column: 1 / span 2;
+    background-color: rgb(236, 133, 7);
+    height: 50px;
+    color: white;
+    width: 85%;
+    margin-left: 9%;
+    border-radius: 15px;
+}
+
+footer {
+    height: 140px;
+    background-color: rgb(242, 195, 137);
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.symbol>i {
+    color: black;
+    font-size: 50px;
+    margin-left: 20%;
+}
+.ptext{
+    margin-top: 20px;
+}
+
+}
