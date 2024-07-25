@@ -572,7 +572,7 @@ footer {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and ( max-width: 430px) {
 
     .mbcontainer {
         display: flex;
@@ -683,8 +683,8 @@ footer {
         color: white;
         font-size: large;
         position: absolute;
-        top: 98%;
-        left: 25%;
+        top: 90%;
+        left: 27%;
         background-color: orangered;
     }
     
@@ -695,8 +695,8 @@ footer {
         color: rgb(18, 18, 18);
         font-size: large;
         position: absolute;
-        top: 108%;
-        left: 25%;
+        top: 100%;
+        left: 27%;
     }
     p.services {
         width: fit-content;
@@ -1001,7 +1001,7 @@ h1 {
     background-color: black;
     rotate:  90deg;
     top: 383px;
-    left: -110px;
+    left: -70px;
     border-radius: 15px;
 }
 .draw{
